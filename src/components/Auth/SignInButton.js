@@ -17,7 +17,7 @@ function SignInButton() {
 
     return (
         <div className="container">
-            <button onClick={() => handleLogin()}>
+            <button onClick={() => handleLogin()} style={{backgroundColor:"black",color:"wheat"}}>
                 Sign with popup
             </button>
         </div>
